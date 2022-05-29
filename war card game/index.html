@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War card game, play online</title>
+    <link rel='stylesheet' href='main.css'>
+    <!-- buttons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Odibee+Sans&family=Sigmar+One&display=swap"
+        rel="stylesheet">
+
+</head>
+<body id='body'>
+
+    <!-- final Score--> 
+
+
+    <div class="score-container" id='score-box'>
+        <div class="text-box">
+            <h1><span class='greetings' id='greetings'></span></h1>
+            <h2><span class='game-info' id='information'></span></h2>
+            <h2>number of wars: <span id='number-of-wars'>0</span></h2>
+            <button type="button" class="btn btn-success" id='try-again'>Try Again</button>
+        </div>
+    </div>
+
+    <div class="container" id='container-hide'>
+        <div class="nav-box">
+
+            <div class="point-box">
+                <h5>wins: <span id='wins'>0</span>
+                losses: <span id='losses'>0</span>
+                </h5>
+            </div>
+
+            <div class="result-box">
+                <h3>WAR GAME</h3>
+                <h3><span id='after-card-result'>Click play to put a card</span></h3>
+            </div>
+
+        </div>
+
+    <!-- game area -->
+
+            <div class="area" id='game-area'>
+
+                <div class="player" id="player-box">
+                    <div class="score-result" id='player-result'>
+                        <h4>Player<span id='player-total'></span></h4>
+                    </div>
+                </div>
+
+                
+                <div class="computer" id='bot-box'>
+                    <div class="score-result" id='bot-result'>
+                        <h4>Computer<span id='computer-total'></span></h4>
+                    </div>
+                </div>
+
+            </div>
+
+
+        <!-- button box -->
+
+            <div class="buttons" id='button-box'>
+                <h2 id='tip'></h2>
+                <button type="button" class="btn btn-primary btn-lg" id='play'>Play</button>
+                <button type="button" class="btn btn-danger btn-lg" id='deal'>Deal</button>
+            </div>
+
+
+    </div>
+
+    <script src='script.js'></script>
+</body>
+</html>

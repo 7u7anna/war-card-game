@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://img.freepik.com/free-vector/poker-table-background-green-color_47243-1094.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    height: 100%;
+    font-family: 'Mitr', sans-serif;
+}
+
+.container h3 {
+    font-family: 'Sigmar One', cursive;
+}
+
+.result-box {
+    width: 100%;
+}
+
+/* points table */
+
+.points-box {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    padding: 10px 0;
+}
+
+#wins {
+    color: grey;
+}
+
+#losses {
+    color: grey;
+}
+
+
+/* game box */
+
+.area {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+#game-area img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.player, .computer {
+    width: 350px;
+    height: 300px;
+}
+
+
+.player-card {
+    transition: opacity 1s;
+}
+
+.computer-card {
+    transition: opacity 1s;
+} 
+
+
+.player-back-card {
+    transition: opacity 1s;
+}
+
+.bot-back-card {
+    transition: opacity 1s;
+}
+
+
+/* button box */
+
+.buttons {
+    width: 100%;
+    padding: 10px 30px;
+    margin: 0 20px;
+}
+
+/* final score */
+
+#score-box {
+    display: none;
+    margin: 10px 135px;
+    font-family: 'Sigmar One', cursive;
+    margin: 100px 250px;
+    text-align: center;
+}
+
+.text-box {
+    background: url(https://www.solidbackgrounds.com/images/5120x2880/5120x2880-mustard-solid-color-background.jpg);
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    box-shadow: 6px 6px 8px grey;
+    border-radius: 10px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 2px darkgray;
+}
+
+.text-box h1 {
+    padding: 30px;
+    margin: 20px;
+}
+
+#try-again {
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
